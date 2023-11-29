@@ -9,7 +9,7 @@ for line in passwords:
     if count < int(min) or count > int(max):
         wrong_passwords+=1
 
-    if wrong_passwords == 42:
+    if wrong_passwords == 13:
         print(word)
         break 
     
